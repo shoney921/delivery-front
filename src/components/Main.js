@@ -86,13 +86,9 @@ function Main() {
 
       <div className="Shop-List">
         {storeList.map((store) => (
-          <Link to={`/stores/${store.id}`}>
-            <div className="Shop-card" key={store.id}>
-              <img
-                className="phoneImage"
-                alt="iPhone_01"
-                src={`images/${store.imageFile}`}
-              />
+          <Link to={`/stores/${store.id}`} key={store.id}>
+            <div className="Shop-card">
+              <img className="shopImage" src={`/images/${store.imageFile}`} />
               <div>
                 <div className="Store-Name">{store.name}</div>
                 <div>

@@ -1,0 +1,15 @@
+.Detail-Title {
+  /* display: flex; */
+  text-align: center;
+  font-size: 24px;
+}
+
+.Detail-Box {
+  display: flex;
+  justify-content: center;
+}
+
+.Left-Box {
+  text-align: right;
+  margin-right: 10px;
+}
