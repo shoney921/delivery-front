@@ -12,12 +12,23 @@
 .Shop-card {
   display: flex;
   /* align-items: center; */
-  justify-content: center;
+  justify-content: left;
   margin-top: 10px;
+  width: 300px;
+  margin-left: 200px;
 }
 
 .Store-Name {
-  width: 400px;
   font-weight: "bold";
   padding-top: 10px;
+}
+
+.Store-title {
+  display: flex;
+  align-items: center;
+}
+
+.adImage {
+  width: 15px;
+  height: 15px;
 }
